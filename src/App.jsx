@@ -26,7 +26,7 @@ export default function App() {
       <h1 className="text-7xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">
         To do list
       </h1>
-      <form onSubmit={(e) => handleAdd(e)}>
+      <form onSubmit={(e) => handleAdd(e)} className="flex items-center">
         <input
           type="text"
           ref={inputRef}
