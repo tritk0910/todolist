@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import List from "./components/List";
 export default function App() {
   const [toDoList, setToDoList] = useState([]);
